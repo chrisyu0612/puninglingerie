@@ -1,0 +1,229 @@
+{
+    "generatedAt":  "2026-07-17T13:53:13.1885109Z",
+    "newProducts":  [
+                        {
+                            "id":  "front-button-matching-set",
+                            "group":  "new",
+                            "isNew":  true,
+                            "title":  "前扣印花文胸套装",
+                            "subtitle":  "Matching Set",
+                            "description":  "浅肤色面料、橙点印花、前扣开合，适合成套目录展示与批发询盘。",
+                            "tags":  [
+                                         "front",
+                                         "set",
+                                         "detail"
+                                     ],
+                            "accent":  "#4be683",
+                            "tilt":  "-3deg",
+                            "linkText":  "询问套装",
+                            "sort":  10,
+                            "featured":  true,
+                            "cover":  "productdata/products/new/front-button-matching-set/cover.png",
+                            "gallery":  [
+
+                                        ]
+                        },
+                        {
+                            "id":  "front-button-beige",
+                            "group":  "new",
+                            "isNew":  true,
+                            "title":  "浅肤色前扣款",
+                            "subtitle":  "188# Beige",
+                            "description":  "宽肩带、杯面印花、前排扣设计，适合日常舒适型文胸系列。",
+                            "tags":  [
+                                         "front",
+                                         "bra"
+                                     ],
+                            "accent":  "#6196ff",
+                            "tilt":  "2deg",
+                            "linkText":  "查看细节",
+                            "sort":  20,
+                            "featured":  false,
+                            "cover":  "productdata/products/new/front-button-beige/cover.png",
+                            "gallery":  [
+
+                                        ]
+                        },
+                        {
+                            "id":  "front-button-black",
+                            "group":  "new",
+                            "isNew":  true,
+                            "title":  "黑色印花款",
+                            "subtitle":  "188# Black",
+                            "description":  "同版型深色选择，适合补充热销基础色，便于组合打包。",
+                            "tags":  [
+                                         "front",
+                                         "bra"
+                                     ],
+                            "accent":  "#ffe36d",
+                            "tilt":  "-2deg",
+                            "linkText":  "获取报价",
+                            "sort":  30,
+                            "featured":  false,
+                            "cover":  "productdata/products/new/front-button-black/cover.png",
+                            "gallery":  [
+
+                                        ]
+                        }
+                    ],
+    "allProducts":  [
+                        {
+                            "id":  "front-button-matching-set",
+                            "group":  "new",
+                            "isNew":  true,
+                            "title":  "前扣印花文胸套装",
+                            "subtitle":  "Matching Set",
+                            "description":  "浅肤色面料、橙点印花、前扣开合，适合成套目录展示与批发询盘。",
+                            "tags":  [
+                                         "front",
+                                         "set",
+                                         "detail"
+                                     ],
+                            "accent":  "#4be683",
+                            "tilt":  "-3deg",
+                            "linkText":  "询问套装",
+                            "sort":  10,
+                            "featured":  true,
+                            "cover":  "productdata/products/new/front-button-matching-set/cover.png",
+                            "gallery":  [
+
+                                        ]
+                        },
+                        {
+                            "id":  "front-button-beige",
+                            "group":  "new",
+                            "isNew":  true,
+                            "title":  "浅肤色前扣款",
+                            "subtitle":  "188# Beige",
+                            "description":  "宽肩带、杯面印花、前排扣设计，适合日常舒适型文胸系列。",
+                            "tags":  [
+                                         "front",
+                                         "bra"
+                                     ],
+                            "accent":  "#6196ff",
+                            "tilt":  "2deg",
+                            "linkText":  "查看细节",
+                            "sort":  20,
+                            "featured":  false,
+                            "cover":  "productdata/products/new/front-button-beige/cover.png",
+                            "gallery":  [
+
+                                        ]
+                        },
+                        {
+                            "id":  "front-button-black",
+                            "group":  "new",
+                            "isNew":  true,
+                            "title":  "黑色印花款",
+                            "subtitle":  "188# Black",
+                            "description":  "同版型深色选择，适合补充热销基础色，便于组合打包。",
+                            "tags":  [
+                                         "front",
+                                         "bra"
+                                     ],
+                            "accent":  "#ffe36d",
+                            "tilt":  "-2deg",
+                            "linkText":  "获取报价",
+                            "sort":  30,
+                            "featured":  false,
+                            "cover":  "productdata/products/new/front-button-black/cover.png",
+                            "gallery":  [
+
+                                        ]
+                        },
+                        {
+                            "id":  "seamless-blue",
+                            "group":  "standard",
+                            "isNew":  false,
+                            "title":  "蓝白拼色无痕款",
+                            "subtitle":  "Seamless",
+                            "description":  "轻薄贴合、无痕外观，适合电商基础款和多色组合采购。",
+                            "tags":  [
+                                         "seamless",
+                                         "bra"
+                                     ],
+                            "accent":  "#ff8a66",
+                            "tilt":  "3deg",
+                            "linkText":  "询问颜色",
+                            "sort":  110,
+                            "featured":  false,
+                            "cover":  "productdata/products/standard/seamless-blue/cover.jpg",
+                            "gallery":  [
+
+                                        ]
+                        },
+                        {
+                            "id":  "seamless-black",
+                            "group":  "standard",
+                            "isNew":  false,
+                            "title":  "纯黑无痕款",
+                            "subtitle":  "Daily Basic",
+                            "description":  "简洁黑色基础版，适合常备库存、复购和直播间组合售卖。",
+                            "tags":  [
+                                         "seamless",
+                                         "bra"
+                                     ],
+                            "accent":  "#84e6ef",
+                            "tilt":  "-1deg",
+                            "linkText":  "批量咨询",
+                            "sort":  120,
+                            "featured":  false,
+                            "cover":  "productdata/products/standard/seamless-black/cover.jpg",
+                            "gallery":  [
+
+                                        ]
+                        },
+                        {
+                            "id":  "seamless-beige",
+                            "group":  "standard",
+                            "isNew":  false,
+                            "title":  "浅肤色无痕款",
+                            "subtitle":  "Comfort Basic",
+                            "description":  "浅色基础款，适合搭配成系列目录，也适合作为主推基础色。",
+                            "tags":  [
+                                         "seamless",
+                                         "bra",
+                                         "basic"
+                                     ],
+                            "accent":  "#c6a7ff",
+                            "tilt":  "1deg",
+                            "linkText":  "查看基础款",
+                            "sort":  130,
+                            "featured":  false,
+                            "cover":  "productdata/products/standard/seamless-beige/cover.jpg",
+                            "gallery":  [
+                                            "productdata/products/standard/seamless-beige/gallery-white.jpg"
+                                        ]
+                        },
+                        {
+                            "id":  "seamless-contrast",
+                            "group":  "standard",
+                            "isNew":  false,
+                            "title":  "黑白拼色无痕款",
+                            "subtitle":  "Contrast",
+                            "description":  "线条更醒目，适合作为详情页视觉锚点和多色系列展示。",
+                            "tags":  [
+                                         "seamless",
+                                         "bra",
+                                         "detail"
+                                     ],
+                            "accent":  "#5f96ff",
+                            "tilt":  "2deg",
+                            "linkText":  "看工艺",
+                            "sort":  140,
+                            "featured":  false,
+                            "cover":  "productdata/products/standard/seamless-contrast/cover.jpg",
+                            "gallery":  [
+
+                                        ]
+                        }
+                    ],
+    "filters":  [
+                    "basic",
+                    "bra",
+                    "detail",
+                    "front",
+                    "seamless",
+                    "set"
+                ]
+}

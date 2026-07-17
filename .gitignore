@@ -1,0 +1,6 @@
+# 本地忽略（不上传到 GitHub）
+.DS_Store
+Thumbs.db
+__screenshots__/
+.cloudflare-stage/
+*.zip

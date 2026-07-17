@@ -1,0 +1,20 @@
+[
+  {
+    "label": "Side Wing",
+    "title": "侧翼承托线条",
+    "description": "宽侧翼和弧形支撑线条，适合强调贴合、稳定和日常舒适卖点。",
+    "image": "productdata/details/side-wing.jpg"
+  },
+  {
+    "label": "Cup Shape",
+    "title": "柔和杯型",
+    "description": "杯面干净，适合近景展示面料平整度和基础款质感。",
+    "image": "productdata/details/cup-shape.jpg"
+  },
+  {
+    "label": "Closure",
+    "title": "背扣与肩带",
+    "description": "多排背扣和可调节肩带，方便做尺寸、穿着稳定性和售后说明。",
+    "image": "productdata/details/back-closure.jpg"
+  }
+]

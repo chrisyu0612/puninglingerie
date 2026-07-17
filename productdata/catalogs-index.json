@@ -1,0 +1,14 @@
+{
+    "generatedAt":  "2026-07-17T13:53:13.2201421Z",
+    "catalogs":  [
+                     {
+                         "id":  "quality-report-240650440",
+                         "title":  "检测报告 240650440",
+                         "type":  "quality-report",
+                         "description":  "文胸 188# 检测报告，可作为采购背书资料。",
+                         "buttonText":  "打开检测报告 PDF",
+                         "sort":  10,
+                         "file":  "productdata/catalogs/quality-report-240650440.pdf"
+                     }
+                 ]
+}

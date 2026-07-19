@@ -1,0 +1,40 @@
+{
+  "id": "style-837",
+  "title": "837",
+  "subtitle": "Full-Cup Series",
+  "description": "Colors: Apricot, Black, Wine Red, White | Size: 1XL、2XL、3XL、4XL、5XL、6XL、7XL | Fabric: 96.2% Polyester 3.8% Spandex Lining: 100% Polyester",
+  "size": "1XL、2XL、3XL、4XL、5XL、6XL、7XL",
+  "fabric": "Fabric: 96.2% Polyester 3.8% Spandex Lining: 100% Polyester",
+  "patent": false,
+  "colors": [
+    {
+      "id": "apricot",
+      "name": "Apricot",
+      "image": "productdata/products/standard/style-837/colors/apricot.jpg"
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "image": "productdata/products/standard/style-837/colors/black.jpg"
+    },
+    {
+      "id": "wine-red",
+      "name": "Wine Red",
+      "image": "productdata/products/standard/style-837/colors/wine-red.jpg"
+    },
+    {
+      "id": "white",
+      "name": "White",
+      "image": "productdata/products/standard/style-837/colors/white.jpg"
+    }
+  ],
+  "tags": [
+    "fullcup",
+    "bra"
+  ],
+  "accent": "#c6a7ff",
+  "tilt": "-2deg",
+  "linkText": "询盘此系列",
+  "sort": 360,
+  "featured": false
+}

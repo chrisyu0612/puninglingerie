@@ -1,0 +1,25 @@
+{
+  "id": "style-3633",
+  "title": "3633",
+  "subtitle": "Full-Cup Series",
+  "description": "Colors: Black | Size: 1XL、2XL、3XL、4XL | Fabric: 91% Polyester 9% Spandex Lining: 100% Polyester",
+  "size": "1XL、2XL、3XL、4XL",
+  "fabric": "Fabric: 91% Polyester 9% Spandex Lining: 100% Polyester",
+  "patent": false,
+  "colors": [
+    {
+      "id": "black",
+      "name": "Black",
+      "image": "productdata/products/standard/style-3633/colors/black.jpg"
+    }
+  ],
+  "tags": [
+    "fullcup",
+    "bra"
+  ],
+  "accent": "#6196ff",
+  "tilt": "-2deg",
+  "linkText": "询盘此系列",
+  "sort": 260,
+  "featured": false
+}

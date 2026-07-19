@@ -1,0 +1,31 @@
+{
+  "id": "style-210",
+  "title": "210",
+  "subtitle": "Full-Cup Series",
+  "description": "Colors: Nude, Black | Size: M、L、0XL、1XL、2XL、3XL、4XL、5XL、6XL | Lining: 100% Polyester Fabric: 95% Polyester    5% Spandex | Patent design.",
+  "size": "M、L、0XL、1XL、2XL、3XL、4XL、5XL、6XL",
+  "fabric": "Lining: 100% Polyester Fabric: 95% Polyester    5% Spandex",
+  "patent": true,
+  "colors": [
+    {
+      "id": "nude",
+      "name": "Nude",
+      "image": "productdata/products/standard/style-210/colors/nude.jpg"
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "image": "productdata/products/standard/style-210/colors/black.jpg"
+    }
+  ],
+  "tags": [
+    "fullcup",
+    "bra",
+    "patent"
+  ],
+  "accent": "#6196ff",
+  "tilt": "1deg",
+  "linkText": "询盘此系列",
+  "sort": 140,
+  "featured": false
+}

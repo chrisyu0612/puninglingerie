@@ -13,16 +13,16 @@
       "批发目录一页看清"
     ],
     "intro": "面向实体店、电商卖家、跨境批发与 OEM/ODM 客户，提供文胸、内裤、无痕内衣、塑身衣及家居服选品支持。",
-    "featuredProductId": "front-button-matching-set",
+    "featuredProductId": "style-201",
     "floatingProductIds": [
-      "front-button-beige",
-      "seamless-beige"
+      "style-202",
+      "style-325"
     ]
   },
   "proof": [
     {
-      "label": "Style",
-      "value": "188#"
+      "label": "Series",
+      "value": "Full-Cup"
     },
     {
       "label": "Report",

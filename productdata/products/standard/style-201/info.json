@@ -1,0 +1,36 @@
+{
+  "id": "style-201",
+  "title": "201",
+  "subtitle": "Full-Cup Series",
+  "description": "Colors: Leopard Black, Leopard Nude, Smooth Nude | Size: ABCDEF Cups: 36/80, 38/85, 40/90, 42/95 BCDEFG Cups: 44/100, 46/105, 48/110, 50/115, 52/120 | (Leopard) Lining: 100% Polyester Fabric: 93.6% Polyester 6.4% Spandex (Smooth) Fabric: 89.7% Nylon 10.3% Spandex Lining: 100% Polyester | Patent design.",
+  "size": "ABCDEF Cups: 36/80, 38/85, 40/90, 42/95 BCDEFG Cups: 44/100, 46/105, 48/110, 50/115, 52/120",
+  "fabric": "(Leopard) Lining: 100% Polyester Fabric: 93.6% Polyester 6.4% Spandex (Smooth) Fabric: 89.7% Nylon 10.3% Spandex Lining: 100% Polyester",
+  "patent": true,
+  "colors": [
+    {
+      "id": "leopard-black",
+      "name": "Leopard Black",
+      "image": "productdata/products/standard/style-201/colors/leopard-black.jpg"
+    },
+    {
+      "id": "leopard-nude",
+      "name": "Leopard Nude",
+      "image": "productdata/products/standard/style-201/colors/leopard-nude.jpg"
+    },
+    {
+      "id": "smooth-nude",
+      "name": "Smooth Nude",
+      "image": "productdata/products/standard/style-201/colors/smooth-nude.jpg"
+    }
+  ],
+  "tags": [
+    "fullcup",
+    "bra",
+    "patent"
+  ],
+  "accent": "#4be683",
+  "tilt": "-2deg",
+  "linkText": "询盘此系列",
+  "sort": 10,
+  "featured": true
+}

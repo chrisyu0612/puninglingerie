@@ -1,0 +1,50 @@
+{
+  "id": "style-268-plus-size-version",
+  "title": "268 Plus-Size Version",
+  "subtitle": "Full-Cup Series",
+  "description": "Colors: Apricot, Black, Wine Red, White, Dusty Rose, Purple | Size: 0XL、1XL、2XL、3XL、4XL、5XL | Fabric: 92% Polyester 8% Spandex Lining: 100% Polyester",
+  "size": "0XL、1XL、2XL、3XL、4XL、5XL",
+  "fabric": "Fabric: 92% Polyester 8% Spandex Lining: 100% Polyester",
+  "patent": false,
+  "colors": [
+    {
+      "id": "apricot",
+      "name": "Apricot",
+      "image": "productdata/products/standard/style-268-plus-size-version/colors/apricot.jpg"
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "image": "productdata/products/standard/style-268-plus-size-version/colors/black.jpg"
+    },
+    {
+      "id": "wine-red",
+      "name": "Wine Red",
+      "image": "productdata/products/standard/style-268-plus-size-version/colors/wine-red.jpg"
+    },
+    {
+      "id": "white",
+      "name": "White",
+      "image": "productdata/products/standard/style-268-plus-size-version/colors/white.jpg"
+    },
+    {
+      "id": "dusty-rose",
+      "name": "Dusty Rose",
+      "image": "productdata/products/standard/style-268-plus-size-version/colors/dusty-rose.jpg"
+    },
+    {
+      "id": "purple",
+      "name": "Purple",
+      "image": "productdata/products/standard/style-268-plus-size-version/colors/purple.jpg"
+    }
+  ],
+  "tags": [
+    "fullcup",
+    "bra"
+  ],
+  "accent": "#84e6ef",
+  "tilt": "-2deg",
+  "linkText": "询盘此系列",
+  "sort": 410,
+  "featured": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": "style-8228",
+  "title": "8228",
+  "subtitle": "Full-Cup Series",
+  "description": "Colors: Pink, White, Red, Black | Size: S/M/L/XL/XXL | Nylon: 89.40% Spandex: 10.60%",
+  "size": "S/M/L/XL/XXL",
+  "fabric": "Nylon: 89.40% Spandex: 10.60%",
+  "patent": false,
+  "colors": [
+    {
+      "id": "pink",
+      "name": "Pink",
+      "image": "productdata/products/standard/style-8228/colors/pink.jpg"
+    },
+    {
+      "id": "white",
+      "name": "White",
+      "image": "productdata/products/standard/style-8228/colors/white.jpg"
+    },
+    {
+      "id": "red",
+      "name": "Red",
+      "image": "productdata/products/standard/style-8228/colors/red.jpg"
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "image": "productdata/products/standard/style-8228/colors/black.jpg"
+    }
+  ],
+  "tags": [
+    "fullcup",
+    "bra"
+  ],
+  "accent": "#4be683",
+  "tilt": "0deg",
+  "linkText": "询盘此系列",
+  "sort": 430,
+  "featured": false
+}

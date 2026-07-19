@@ -1,0 +1,30 @@
+{
+  "id": "style-828",
+  "title": "828",
+  "subtitle": "Full-Cup Series",
+  "description": "Colors: Apricot, Black | Size: 0XL、1XL、2XL、3XL、4XL | Fabric: 96.2% Polyester 3.8% Spandex Lining: 100% Polyester",
+  "size": "0XL、1XL、2XL、3XL、4XL",
+  "fabric": "Fabric: 96.2% Polyester 3.8% Spandex Lining: 100% Polyester",
+  "patent": false,
+  "colors": [
+    {
+      "id": "apricot",
+      "name": "Apricot",
+      "image": "productdata/products/standard/style-828/colors/apricot.jpg"
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "image": "productdata/products/standard/style-828/colors/black.jpg"
+    }
+  ],
+  "tags": [
+    "fullcup",
+    "bra"
+  ],
+  "accent": "#4be683",
+  "tilt": "-2deg",
+  "linkText": "询盘此系列",
+  "sort": 310,
+  "featured": false
+}

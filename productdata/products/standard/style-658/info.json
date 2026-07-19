@@ -1,0 +1,30 @@
+{
+  "id": "style-658",
+  "title": "658",
+  "subtitle": "Full-Cup Series",
+  "description": "Colors: Black, Apricot | Size: DEF Cups: 36/80 CDEF Cups: 38/85, 40/90, 42/95, 44/100, 46/105, 48/110, 50/115 | Lining: 78% Polyester       22% Spandex Fabric: 78% Polyester       22% Spandex",
+  "size": "DEF Cups: 36/80 CDEF Cups: 38/85, 40/90, 42/95, 44/100, 46/105, 48/110, 50/115",
+  "fabric": "Lining: 78% Polyester       22% Spandex Fabric: 78% Polyester       22% Spandex",
+  "patent": false,
+  "colors": [
+    {
+      "id": "black",
+      "name": "Black",
+      "image": "productdata/products/standard/style-658/colors/black.jpg"
+    },
+    {
+      "id": "apricot",
+      "name": "Apricot",
+      "image": "productdata/products/standard/style-658/colors/apricot.jpg"
+    }
+  ],
+  "tags": [
+    "fullcup",
+    "bra"
+  ],
+  "accent": "#c6a7ff",
+  "tilt": "-1deg",
+  "linkText": "询盘此系列",
+  "sort": 120,
+  "featured": false
+}

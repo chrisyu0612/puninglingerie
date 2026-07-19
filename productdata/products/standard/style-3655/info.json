@@ -1,0 +1,30 @@
+{
+  "id": "style-3655",
+  "title": "3655",
+  "subtitle": "Full-Cup Series",
+  "description": "Colors: Coffee Leopard, Brown Leopard | Size: 1XL、2XL、3XL、4XL | Fabric: 91% Polyester 9% Spandex Lining: 100% Polyester",
+  "size": "1XL、2XL、3XL、4XL",
+  "fabric": "Fabric: 91% Polyester 9% Spandex Lining: 100% Polyester",
+  "patent": false,
+  "colors": [
+    {
+      "id": "coffee-leopard",
+      "name": "Coffee Leopard",
+      "image": "productdata/products/standard/style-3655/colors/coffee-leopard.jpg"
+    },
+    {
+      "id": "brown-leopard",
+      "name": "Brown Leopard",
+      "image": "productdata/products/standard/style-3655/colors/brown-leopard.jpg"
+    }
+  ],
+  "tags": [
+    "fullcup",
+    "bra"
+  ],
+  "accent": "#ffe36d",
+  "tilt": "-1deg",
+  "linkText": "询盘此系列",
+  "sort": 270,
+  "featured": false
+}

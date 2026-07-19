@@ -1,0 +1,35 @@
+{
+  "id": "style-213",
+  "title": "213",
+  "subtitle": "Full-Cup Series",
+  "description": "Colors: Apricot, Purple, Black | Size: 0XL、1XL、2XL、3XL、4XL、5XL | Fabric: 90% Polyester 10% Spandex Lining: 100% Polyester",
+  "size": "0XL、1XL、2XL、3XL、4XL、5XL",
+  "fabric": "Fabric: 90% Polyester 10% Spandex Lining: 100% Polyester",
+  "patent": false,
+  "colors": [
+    {
+      "id": "apricot",
+      "name": "Apricot",
+      "image": "productdata/products/standard/style-213/colors/apricot.jpg"
+    },
+    {
+      "id": "purple",
+      "name": "Purple",
+      "image": "productdata/products/standard/style-213/colors/purple.jpg"
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "image": "productdata/products/standard/style-213/colors/black.jpg"
+    }
+  ],
+  "tags": [
+    "fullcup",
+    "bra"
+  ],
+  "accent": "#ff8a66",
+  "tilt": "1deg",
+  "linkText": "询盘此系列",
+  "sort": 340,
+  "featured": false
+}

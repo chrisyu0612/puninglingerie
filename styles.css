@@ -523,6 +523,47 @@ p {
   margin-bottom: 18px;
 }
 
+.card-copy .color-label {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.card-copy .color-label strong {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.color-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 10px;
+}
+
+.color-swatch {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #eee;
+  cursor: pointer;
+}
+
+.color-swatch img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.color-swatch.is-active {
+  border-color: var(--ink);
+  box-shadow: 0 0 0 1px rgba(30, 28, 24, 0.2);
+}
+
 .card-copy a {
   margin-top: auto;
   color: var(--muted);

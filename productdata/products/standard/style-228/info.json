@@ -1,0 +1,36 @@
+{
+  "id": "style-228",
+  "title": "228",
+  "subtitle": "Full-Cup Series",
+  "description": "Colors: Dusty Rose, Black, Nude | Size: AB CD EF Cups: 36/80, 38/85, 40/90, 42/95 BC DE FG Cups: 44/100, 46/105, 48/110, 50/115, 52/120 | Fabric: 95.6% Polyester 4.4% Spandex Lining: 100% Polyester | Patent design.",
+  "size": "AB CD EF Cups: 36/80, 38/85, 40/90, 42/95 BC DE FG Cups: 44/100, 46/105, 48/110, 50/115, 52/120",
+  "fabric": "Fabric: 95.6% Polyester 4.4% Spandex Lining: 100% Polyester",
+  "patent": true,
+  "colors": [
+    {
+      "id": "dusty-rose",
+      "name": "Dusty Rose",
+      "image": "productdata/products/standard/style-228/colors/dusty-rose.jpg"
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "image": "productdata/products/standard/style-228/colors/black.jpg"
+    },
+    {
+      "id": "nude",
+      "name": "Nude",
+      "image": "productdata/products/standard/style-228/colors/nude.jpg"
+    }
+  ],
+  "tags": [
+    "fullcup",
+    "bra",
+    "patent"
+  ],
+  "accent": "#84e6ef",
+  "tilt": "2deg",
+  "linkText": "询盘此系列",
+  "sort": 50,
+  "featured": false
+}

@@ -1,0 +1,45 @@
+{
+  "id": "style-222-plus-size-version",
+  "title": "222 Plus-Size Version",
+  "subtitle": "Full-Cup Series",
+  "description": "Colors: Apricot, Black, Wine Red, White, Purple | Size: 1XL、2XL、3XL、4XL、5XL、6XL、7XL | Cup fabric: 77.2% Nylon       22.8% Spandex         Lining: 100% Polyester",
+  "size": "1XL、2XL、3XL、4XL、5XL、6XL、7XL",
+  "fabric": "Cup fabric: 77.2% Nylon       22.8% Spandex         Lining: 100% Polyester",
+  "patent": false,
+  "colors": [
+    {
+      "id": "apricot",
+      "name": "Apricot",
+      "image": "productdata/products/standard/style-222-plus-size-version/colors/apricot.jpg"
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "image": "productdata/products/standard/style-222-plus-size-version/colors/black.jpg"
+    },
+    {
+      "id": "wine-red",
+      "name": "Wine Red",
+      "image": "productdata/products/standard/style-222-plus-size-version/colors/wine-red.jpg"
+    },
+    {
+      "id": "white",
+      "name": "White",
+      "image": "productdata/products/standard/style-222-plus-size-version/colors/white.jpg"
+    },
+    {
+      "id": "purple",
+      "name": "Purple",
+      "image": "productdata/products/standard/style-222-plus-size-version/colors/purple.jpg"
+    }
+  ],
+  "tags": [
+    "fullcup",
+    "bra"
+  ],
+  "accent": "#4be683",
+  "tilt": "-1deg",
+  "linkText": "询盘此系列",
+  "sort": 370,
+  "featured": false
+}

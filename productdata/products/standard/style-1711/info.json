@@ -1,0 +1,31 @@
+{
+  "id": "style-1711",
+  "title": "1711",
+  "subtitle": "Full-Cup Series",
+  "description": "Colors: Apricot, Black | Size: 0XL、1XL、2XL、3XL、4XL、5XL、6XL、7XL | Fabric: 91% Polyester 9% Spandex Lining: 100% Polyester | Patent design.",
+  "size": "0XL、1XL、2XL、3XL、4XL、5XL、6XL、7XL",
+  "fabric": "Fabric: 91% Polyester 9% Spandex Lining: 100% Polyester",
+  "patent": true,
+  "colors": [
+    {
+      "id": "apricot",
+      "name": "Apricot",
+      "image": "productdata/products/standard/style-1711/colors/apricot.jpg"
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "image": "productdata/products/standard/style-1711/colors/black.jpg"
+    }
+  ],
+  "tags": [
+    "fullcup",
+    "bra",
+    "patent"
+  ],
+  "accent": "#84e6ef",
+  "tilt": "-1deg",
+  "linkText": "询盘此系列",
+  "sort": 170,
+  "featured": false
+}

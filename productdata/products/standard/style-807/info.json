@@ -1,0 +1,40 @@
+{
+  "id": "style-807",
+  "title": "807",
+  "subtitle": "Full-Cup Series",
+  "description": "Colors: Apricot, Black, White, Red | Size: 0XL、1XL、2XL、3XL、4XL、5XL、6XL | Fabric: 95% Polyester 5% Spandex Lining: 100% Polyester",
+  "size": "0XL、1XL、2XL、3XL、4XL、5XL、6XL",
+  "fabric": "Fabric: 95% Polyester 5% Spandex Lining: 100% Polyester",
+  "patent": false,
+  "colors": [
+    {
+      "id": "apricot",
+      "name": "Apricot",
+      "image": "productdata/products/standard/style-807/colors/apricot.jpg"
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "image": "productdata/products/standard/style-807/colors/black.jpg"
+    },
+    {
+      "id": "white",
+      "name": "White",
+      "image": "productdata/products/standard/style-807/colors/white.jpg"
+    },
+    {
+      "id": "red",
+      "name": "Red",
+      "image": "productdata/products/standard/style-807/colors/red.jpg"
+    }
+  ],
+  "tags": [
+    "fullcup",
+    "bra"
+  ],
+  "accent": "#84e6ef",
+  "tilt": "0deg",
+  "linkText": "询盘此系列",
+  "sort": 230,
+  "featured": false
+}

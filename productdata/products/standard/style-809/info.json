@@ -1,0 +1,35 @@
+{
+  "id": "style-809",
+  "title": "809",
+  "subtitle": "Full-Cup Series",
+  "description": "Colors: Apricot, Black, Green | Size: 1XL、2XL、3XL、4XL、5XL、6XL、7XL | Fabric: 78.8% Viscose 14.5% Modal 6.7% Spandex Lining: 100% Polyester",
+  "size": "1XL、2XL、3XL、4XL、5XL、6XL、7XL",
+  "fabric": "Fabric: 78.8% Viscose 14.5% Modal 6.7% Spandex Lining: 100% Polyester",
+  "patent": false,
+  "colors": [
+    {
+      "id": "apricot",
+      "name": "Apricot",
+      "image": "productdata/products/standard/style-809/colors/apricot.jpg"
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "image": "productdata/products/standard/style-809/colors/black.jpg"
+    },
+    {
+      "id": "green",
+      "name": "Green",
+      "image": "productdata/products/standard/style-809/colors/green.jpg"
+    }
+  ],
+  "tags": [
+    "fullcup",
+    "bra"
+  ],
+  "accent": "#ff8a66",
+  "tilt": "-1deg",
+  "linkText": "询盘此系列",
+  "sort": 220,
+  "featured": false
+}

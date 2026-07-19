@@ -1,0 +1,31 @@
+{
+  "id": "style-901",
+  "title": "901",
+  "subtitle": "Full-Cup Series",
+  "description": "Colors: Nude, Black | Size: ABCDEF Cups: 34/75, 36/80, 38/85, 40/90 BCDEFG Cups: 42/95, 44/100, 46/105, 48/110, 50/115 | Fabric: 82.4% Polyester 13.2% Cotton 4.4% Spandex Lining: 100% Polyester | Patent design.",
+  "size": "ABCDEF Cups: 34/75, 36/80, 38/85, 40/90 BCDEFG Cups: 42/95, 44/100, 46/105, 48/110, 50/115",
+  "fabric": "Fabric: 82.4% Polyester 13.2% Cotton 4.4% Spandex Lining: 100% Polyester",
+  "patent": true,
+  "colors": [
+    {
+      "id": "nude",
+      "name": "Nude",
+      "image": "productdata/products/standard/style-901/colors/nude.jpg"
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "image": "productdata/products/standard/style-901/colors/black.jpg"
+    }
+  ],
+  "tags": [
+    "fullcup",
+    "bra",
+    "patent"
+  ],
+  "accent": "#ffe36d",
+  "tilt": "1deg",
+  "linkText": "询盘此系列",
+  "sort": 90,
+  "featured": false
+}

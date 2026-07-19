@@ -1,0 +1,35 @@
+{
+  "id": "style-833",
+  "title": "833",
+  "subtitle": "Full-Cup Series",
+  "description": "Colors: Apricot, Black, Angora Red | Size: 1XL、2XL、3XL、4XL、5XL、6XL、7XL | Fabric: 85.45% Polyester   14.55% Spandex Lining: 100% Polyester",
+  "size": "1XL、2XL、3XL、4XL、5XL、6XL、7XL",
+  "fabric": "Fabric: 85.45% Polyester   14.55% Spandex Lining: 100% Polyester",
+  "patent": false,
+  "colors": [
+    {
+      "id": "apricot",
+      "name": "Apricot",
+      "image": "productdata/products/standard/style-833/colors/apricot.jpg"
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "image": "productdata/products/standard/style-833/colors/black.jpg"
+    },
+    {
+      "id": "angora-red",
+      "name": "Angora Red",
+      "image": "productdata/products/standard/style-833/colors/angora-red.jpg"
+    }
+  ],
+  "tags": [
+    "fullcup",
+    "bra"
+  ],
+  "accent": "#84e6ef",
+  "tilt": "2deg",
+  "linkText": "询盘此系列",
+  "sort": 350,
+  "featured": false
+}

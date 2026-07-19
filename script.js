@@ -77,19 +77,62 @@ function productCard(product, index = 0) {
   const tags = (product.tags || []).join(" ");
   const featureClass = product.featured ? " feature-card" : "";
   const linkText = product.linkText || "询盘";
+  const colors = product.colors || [];
+  const colorButtons = colors.map((color, colorIndex) => `
+    <button
+      class="color-swatch${colorIndex === 0 ? " is-active" : ""}"
+      type="button"
+      data-color-image="${escapeHtml(color.image || product.cover)}"
+      data-color-name="${escapeHtml(color.name || "Color")}"
+      aria-label="${escapeHtml(color.name || "Color")}"
+      title="${escapeHtml(color.name || "Color")}"
+    >
+      <img src="${escapeHtml(color.image || product.cover)}" alt="" loading="lazy">
+    </button>
+  `).join("");
+
+  const metaBits = [];
+  if (colors.length) metaBits.push(`${colors.length} colors`);
+  if (product.patent) metaBits.push("Patent");
+  const meta = metaBits.join(" · ");
+
   return `
     <article class="product-card${featureClass}" data-tags="${escapeHtml(tags)}" style="--accent:${escapeHtml(product.accent || "#4be683")}; --tilt:${escapeHtml(product.tilt || "0deg")};">
       <div class="media">
-        <img src="${escapeHtml(product.cover)}" alt="${escapeHtml(product.title)}" loading="${index ? "lazy" : "eager"}">
+        <img class="series-cover" src="${escapeHtml(product.cover)}" alt="${escapeHtml(product.title)}" loading="${index ? "lazy" : "eager"}">
       </div>
       <div class="card-copy">
-        <span>${escapeHtml(product.subtitle || "Product")}</span>
+        <span>${escapeHtml(product.subtitle || "Product")}${meta ? ` · ${escapeHtml(meta)}` : ""}</span>
         <h3>${escapeHtml(product.title)}</h3>
-        <p>${escapeHtml(product.description)}</p>
+        ${colors.length ? `
+          <div class="color-row" aria-label="色系">
+            ${colorButtons}
+          </div>
+          <p class="color-label">色系：<strong data-active-color>${escapeHtml(colors[0]?.name || "")}</strong></p>
+        ` : ""}
+        <p>${escapeHtml(product.size ? `Size: ${product.size}` : product.description)}</p>
         <a href="#contact">${escapeHtml(linkText)} →</a>
       </div>
     </article>
   `;
+}
+
+function setupColorSwitchers() {
+  document.querySelectorAll(".product-card").forEach((card) => {
+    const cover = card.querySelector(".series-cover");
+    const label = card.querySelector("[data-active-color]");
+    card.querySelectorAll(".color-swatch").forEach((button) => {
+      button.addEventListener("click", () => {
+        card.querySelectorAll(".color-swatch").forEach((item) => item.classList.remove("is-active"));
+        button.classList.add("is-active");
+        if (cover && button.dataset.colorImage) {
+          cover.src = button.dataset.colorImage;
+          cover.alt = `${card.querySelector("h3")?.textContent || ""} / ${button.dataset.colorName || ""}`;
+        }
+        if (label) label.textContent = button.dataset.colorName || "";
+      });
+    });
+  });
 }
 
 function renderHeroProducts() {
@@ -142,7 +185,9 @@ function renderFilters() {
     detail: "细节",
     set: "套装",
     bra: "文胸",
-    basic: "基础款"
+    basic: "基础款",
+    fullcup: "Full-Cup",
+    patent: "专利款"
   };
   const filters = productState.filters.filter((item) => item !== "new" && item !== "standard");
   row.innerHTML = [
@@ -288,12 +333,13 @@ async function init() {
     productState = products;
     applySiteConfig(site);
     renderHeroProducts();
-    renderDeck("newProductDeck", productState.newProducts || [], "暂无新品，请在 productdata/products/new 中添加。");
-    renderDeck("standardProductDeck", productState.allProducts || [], "暂无产品，请在 productdata/products 中添加。");
+    renderDeck("newProductDeck", productState.newProducts || [], "暂无新品。新品可放入 productdata/products/new。");
+    renderDeck("standardProductDeck", (productState.allProducts || []).filter((item) => item.group === "standard"), "暂无产品系列，请导入 productdata/products/standard。");
     renderFilters();
     renderProductSelect();
     renderDetails(details);
     renderReport(catalogs);
+    setupColorSwitchers();
     setupDeckControls();
     setupPointerTilt();
     setupReveal();

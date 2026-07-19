@@ -1,0 +1,31 @@
+{
+  "id": "style-803",
+  "title": "803",
+  "subtitle": "Full-Cup Series",
+  "description": "Colors: Nude, Black | Size: 0XL、1XL、2XL、3XL、4XL、5XL、6XL、7XL、8XL | Lining: 100% Polyester Fabric: 75.8% Polyester 19.0% Cotton              5.2% Spandex | Patent design.",
+  "size": "0XL、1XL、2XL、3XL、4XL、5XL、6XL、7XL、8XL",
+  "fabric": "Lining: 100% Polyester Fabric: 75.8% Polyester 19.0% Cotton              5.2% Spandex",
+  "patent": true,
+  "colors": [
+    {
+      "id": "nude",
+      "name": "Nude",
+      "image": "productdata/products/standard/style-803/colors/nude.jpg"
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "image": "productdata/products/standard/style-803/colors/black.jpg"
+    }
+  ],
+  "tags": [
+    "fullcup",
+    "bra",
+    "patent"
+  ],
+  "accent": "#ffe36d",
+  "tilt": "2deg",
+  "linkText": "询盘此系列",
+  "sort": 150,
+  "featured": false
+}

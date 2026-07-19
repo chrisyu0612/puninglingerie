@@ -1,18 +1,32 @@
 # productdata — 商品资料维护区
 
-以后你只维护这个文件夹，不需要改页面代码。
+以后你只维护这个文件夹，不需要改页面代码。  
+更新网站：改这里的资料 →（必要时）生成索引 → `git push` 到 GitHub。
 
-## 重要说明（Cloudflare）
+Full-Cup 系列可从 Excel 重新导入（不含价格）：
 
-Cloudflare Pages 是静态托管，**线上网站无法自动列出文件夹里的文件**。  
-本站在打包时用 `tools/build-data-index.ps1` 扫描 `productdata`，生成：
+```powershell
+python .\tools\import-fullcup-xlsx.py
+.\tools\build-data-index.cmd
+```
+
+标准展示区按「系列 → 色系」展示：`products/standard/style-xxx/` + `colors/`。
+
+## 重要说明
+
+静态网站**无法自动列出文件夹里的文件**。  
+增删产品后，请运行：
+
+```text
+tools/build-data-index.cmd
+```
+
+它会扫描本目录，生成：
 
 - `products-index.json`
 - `catalogs-index.json`
 
-所以：**改了产品数量 / 增删文件夹之后，请重新运行打包脚本，再上传 zip。**
-
-只换同名图片（例如仍叫 `cover.jpg`）时，重新打包上传即可，`info.json` 一般不用动。
+然后再 `git push`。只换同名 `cover` 图片时，一般不用重新生成索引。
 
 ## 目录结构
 
@@ -40,19 +54,19 @@ productdata/
 
 ## 新增产品
 
-1. 在 `products/new/` 或 `products/standard/` 下新建英文文件夹，例如 `summer-bra-001`。
-2. 放入主图，命名为 `cover.jpg` / `cover.png` / `cover.webp`。
-3. 复制其他产品的 `info.json`，改标题、描述、标签、`sort`。
-4. 双击或运行 `tools/build-cloudflare-zip.cmd`，上传生成的 `gracelingerie-cloudflare.zip`。
+1. 在 `products/new/` 或 `products/standard/` 下新建英文文件夹，例如 `summer-bra-001`
+2. 放入主图，命名为 `cover.jpg` / `cover.png` / `cover.webp`
+3. 复制其他产品的 `info.json`，改标题、描述、标签、`sort`
+4. 运行 `tools/build-data-index.cmd`，再按根目录《更新github说明.md》推送
 
 ## 删除产品
 
-删除对应产品文件夹，然后重新打包上传。
+删除对应产品文件夹，运行索引脚本，再 `git push`。
 
 ## 替换图片
 
-保持文件名仍为 `cover.*`，替换文件后重新打包上传。
+保持文件名仍为 `cover.*`，替换后 `git push` 即可。
 
 ## 维护站点文案
 
-编辑 `site.json`（品牌名、WhatsApp、首屏标题等）和 `details.json`（细节区文案），然后重新打包。
+编辑 `site.json`、`details.json`，然后 `git push`。

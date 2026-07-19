@@ -1,0 +1,41 @@
+{
+  "id": "style-222-full-cup-version",
+  "title": "222 Full-Cup Version",
+  "subtitle": "Full-Cup Series",
+  "description": "Colors: White, Apricot, Purple Gray, Black | Size: CDEF Cups: 38/85, 40/90, 42/95, 44/100, 46/105, 48/110 | Fabric: 77.2% Nylon       22.8% Spandex         Lining: 100% Polyester | Patent design.",
+  "size": "CDEF Cups: 38/85, 40/90, 42/95, 44/100, 46/105, 48/110",
+  "fabric": "Fabric: 77.2% Nylon       22.8% Spandex         Lining: 100% Polyester",
+  "patent": true,
+  "colors": [
+    {
+      "id": "white",
+      "name": "White",
+      "image": "productdata/products/standard/style-222-full-cup-version/colors/white.jpg"
+    },
+    {
+      "id": "apricot",
+      "name": "Apricot",
+      "image": "productdata/products/standard/style-222-full-cup-version/colors/apricot.jpg"
+    },
+    {
+      "id": "purple-gray",
+      "name": "Purple Gray",
+      "image": "productdata/products/standard/style-222-full-cup-version/colors/purple-gray.jpg"
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "image": "productdata/products/standard/style-222-full-cup-version/colors/black.jpg"
+    }
+  ],
+  "tags": [
+    "fullcup",
+    "bra",
+    "patent"
+  ],
+  "accent": "#ff8a66",
+  "tilt": "-2deg",
+  "linkText": "询盘此系列",
+  "sort": 160,
+  "featured": false
+}

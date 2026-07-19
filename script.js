@@ -42,9 +42,9 @@ function updateWhatsappLinks() {
 
 function applySiteConfig(site) {
   siteConfig = site || {};
-  document.title = siteConfig.title || "GraceLingerie | Full-Cup Bra Wholesale";
+  document.title = siteConfig.title || "格蕾丝内衣 | GraceLingerie";
   document.querySelector('meta[name="description"]')?.setAttribute("content", siteConfig.description || "");
-  document.querySelector("[data-brand-name]").textContent = siteConfig.brandName || "GraceLingerie";
+  document.querySelector("[data-brand-name]").textContent = siteConfig.brandName || "格蕾丝内衣";
   document.querySelector("[data-brand-en]").textContent = siteConfig.brandNameEn || "GraceLingerie";
   document.querySelector("[data-hero-eyebrow]").textContent = siteConfig.hero?.eyebrow || "Puning Lingerie Wholesale";
   document.querySelector("[data-hero-intro]").textContent = siteConfig.hero?.intro || "";
@@ -217,12 +217,9 @@ function renderFilters() {
 function renderProductSelect() {
   const select = document.querySelector("[data-product-select]");
   const options = productState.allProducts.map((item) => `<option>${escapeHtml(item.title)}</option>`);
-  select.innerHTML = [
-    "<option>Bras</option>",
-    "<option>Seamless</option>",
-    "<option>OEM/ODM</option>",
-    ...options
-  ].join("");
+  select.innerHTML = options.length
+    ? options.join("")
+    : "<option>Select a style</option>";
 }
 
 function renderDetails(details) {

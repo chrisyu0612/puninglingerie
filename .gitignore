@@ -4,3 +4,7 @@ Thumbs.db
 __screenshots__/
 .cloudflare-stage/
 *.zip
+
+__pycache__/
+*.pyc
+

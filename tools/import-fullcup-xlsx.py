@@ -1,4 +1,4 @@
-"""
+﻿"""
 Import Full-Cup series from Excel into productdata/products/standard.
 - One folder per series (Style No.)
 - One image per colorway under colors/
@@ -258,7 +258,7 @@ def import_all():
             "tags": tags,
             "accent": ACCENTS[index % len(ACCENTS)],
             "tilt": f"{(-2 + (index % 5))}deg",
-            "linkText": "询盘此系列",
+            "linkText": "Inquire about this series",
             "sort": (index + 1) * 10,
             "featured": index < 3,
         }

@@ -42,14 +42,14 @@ function updateWhatsappLinks() {
 
 function applySiteConfig(site) {
   siteConfig = site || {};
-  document.title = siteConfig.title || "格蕾丝女性内衣 | GraceLingerie";
+  document.title = siteConfig.title || "GraceLingerie | Full-Cup Bra Wholesale";
   document.querySelector('meta[name="description"]')?.setAttribute("content", siteConfig.description || "");
-  document.querySelector("[data-brand-name]").textContent = siteConfig.brandName || "格蕾丝女性内衣";
+  document.querySelector("[data-brand-name]").textContent = siteConfig.brandName || "GraceLingerie";
   document.querySelector("[data-brand-en]").textContent = siteConfig.brandNameEn || "GraceLingerie";
   document.querySelector("[data-hero-eyebrow]").textContent = siteConfig.hero?.eyebrow || "Puning Lingerie Wholesale";
   document.querySelector("[data-hero-intro]").textContent = siteConfig.hero?.intro || "";
 
-  const heading = siteConfig.hero?.headingLines || ["舒适文胸与", "无痕内衣", "批发目录一页看清"];
+  const heading = siteConfig.hero?.headingLines || ["Comfort bras &", "full-cup styles", "Wholesale catalog at a glance"];
   document.querySelector("[data-hero-title]").innerHTML = heading
     .map((line, index) => index === heading.length - 1 ? `<span>${escapeHtml(line)}</span>` : `${escapeHtml(line)}<br>`)
     .join("");
@@ -76,7 +76,7 @@ function productById(id) {
 function productCard(product, index = 0) {
   const tags = (product.tags || []).join(" ");
   const featureClass = product.featured ? " feature-card" : "";
-  const linkText = product.linkText || "询盘";
+  const linkText = product.linkText || "Inquire";
   const colors = product.colors || [];
   const colorButtons = colors.map((color, colorIndex) => `
     <button
@@ -105,10 +105,10 @@ function productCard(product, index = 0) {
         <span>${escapeHtml(product.subtitle || "Product")}${meta ? ` · ${escapeHtml(meta)}` : ""}</span>
         <h3>${escapeHtml(product.title)}</h3>
         ${colors.length ? `
-          <div class="color-row" aria-label="色系">
+          <div class="color-row" aria-label="Colorways">
             ${colorButtons}
           </div>
-          <p class="color-label">色系：<strong data-active-color>${escapeHtml(colors[0]?.name || "")}</strong></p>
+          <p class="color-label">Colorway: <strong data-active-color>${escapeHtml(colors[0]?.name || "")}</strong></p>
         ` : ""}
         <p>${escapeHtml(product.size ? `Size: ${product.size}` : product.description)}</p>
         <a href="#contact">${escapeHtml(linkText)} →</a>
@@ -143,7 +143,7 @@ function renderHeroProducts() {
     .filter(Boolean);
 
   if (!featured) {
-    visual.innerHTML = '<div class="hero-loading">请先在 productdata/products 中添加产品。</div>';
+    visual.innerHTML = '<div class="hero-loading">Add products in productdata/products to get started.</div>';
     return;
   }
 
@@ -180,14 +180,14 @@ function renderDeck(deckId, products, emptyText) {
 function renderFilters() {
   const row = document.querySelector("[data-filter-row]");
   const labels = {
-    front: "前扣",
-    seamless: "无痕",
-    detail: "细节",
-    set: "套装",
-    bra: "文胸",
-    basic: "基础款",
+    front: "Front-close",
+    seamless: "Seamless",
+    detail: "Detail",
+    set: "Set",
+    bra: "Bra",
+    basic: "Basic",
     fullcup: "Full-Cup",
-    patent: "专利款"
+    patent: "Patent"
   };
   const filters = productState.filters.filter((item) => item !== "new" && item !== "standard");
   row.innerHTML = [
@@ -218,8 +218,8 @@ function renderProductSelect() {
   const select = document.querySelector("[data-product-select]");
   const options = productState.allProducts.map((item) => `<option>${escapeHtml(item.title)}</option>`);
   select.innerHTML = [
-    "<option>文胸 / Bras</option>",
-    "<option>无痕内衣 / Seamless</option>",
+    "<option>Bras</option>",
+    "<option>Seamless</option>",
     "<option>OEM/ODM</option>",
     ...options
   ].join("");
@@ -242,9 +242,9 @@ function renderDetails(details) {
 function renderReport(catalogs) {
   const report = siteConfig.report || {};
   const reportFile = (catalogs.catalogs || []).find((item) => item.type === "quality-report") || (catalogs.catalogs || [])[0];
-  document.querySelector("[data-report-copy]").textContent = `报告编号 ${report.reportNo || "240650440"}，样品名称：${report.sample || "文胸"}，款号：${report.styleNo || "188#"}。${report.summary || ""}`;
+  document.querySelector("[data-report-copy]").textContent = `Report No. ${report.reportNo || "240650440"}. Sample: ${report.sample || "Bra"}. Style: ${report.styleNo || "188#"}. ${report.summary || ""}`;
   document.querySelector("[data-report-link]").href = reportFile?.file || "productdata/catalogs/quality-report-240650440.pdf";
-  document.querySelector("[data-report-link]").textContent = reportFile?.buttonText || "打开检测报告 PDF";
+  document.querySelector("[data-report-link]").textContent = reportFile?.buttonText || "Open quality report PDF";
   document.querySelector("[data-report-list]").innerHTML = (report.items || []).map((item) => `
     <div>
       <span>${escapeHtml(item.label)}</span>
@@ -333,8 +333,8 @@ async function init() {
     productState = products;
     applySiteConfig(site);
     renderHeroProducts();
-    renderDeck("newProductDeck", productState.newProducts || [], "暂无新品。新品可放入 productdata/products/new。");
-    renderDeck("standardProductDeck", (productState.allProducts || []).filter((item) => item.group === "standard"), "暂无产品系列，请导入 productdata/products/standard。");
+    renderDeck("newProductDeck", productState.newProducts || [], "No new arrivals yet. Add styles to productdata/products/new.");
+    renderDeck("standardProductDeck", (productState.allProducts || []).filter((item) => item.group === "standard"), "No series yet. Import styles into productdata/products/standard.");
     renderFilters();
     renderProductSelect();
     renderDetails(details);
@@ -347,7 +347,7 @@ async function init() {
   } catch (error) {
     console.error(error);
     document.querySelectorAll(".data-status").forEach((item) => {
-      item.textContent = "资料加载失败。请确认 productdata/site.json 与索引文件已上传。";
+      item.textContent = "Failed to load data. Please confirm productdata/site.json and index files are available.";
     });
   }
 }

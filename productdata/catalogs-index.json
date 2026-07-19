@@ -1,12 +1,12 @@
 {
-    "generatedAt":  "2026-07-19T03:02:24.6432496Z",
+    "generatedAt":  "2026-07-19T03:20:27.5762235Z",
     "catalogs":  [
                      {
                          "id":  "quality-report-240650440",
-                         "title":  "检测报告 240650440",
+                         "title":  "Quality Report 240650440",
                          "type":  "quality-report",
-                         "description":  "文胸 188# 检测报告，可作为采购背书资料。",
-                         "buttonText":  "打开检测报告 PDF",
+                         "description":  "Bra 188# lab report for wholesale sourcing reference.",
+                         "buttonText":  "Open quality report PDF",
                          "sort":  10,
                          "file":  "productdata/catalogs/quality-report-240650440.pdf"
                      }

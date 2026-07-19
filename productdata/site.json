@@ -1,18 +1,18 @@
 {
-  "brandName": "格蕾丝女性内衣",
+  "brandName": "GraceLingerie",
   "brandNameEn": "GraceLingerie",
-  "title": "格蕾丝女性内衣 | GraceLingerie",
-  "description": "格蕾丝女性内衣产品展示页，面向批发、电商、跨境与 OEM/ODM 客户。",
+  "title": "GraceLingerie | Full-Cup Bra Wholesale",
+  "description": "GraceLingerie product showcase for wholesale, ecommerce, cross-border, and OEM/ODM buyers.",
   "whatsapp": "8617716750612",
   "wechat": "+86 177 1675 0612",
   "hero": {
     "eyebrow": "Puning Lingerie Wholesale",
     "headingLines": [
-      "舒适文胸与",
-      "无痕内衣",
-      "批发目录一页看清"
+      "Comfort bras &",
+      "full-cup styles",
+      "Wholesale catalog at a glance"
     ],
-    "intro": "面向实体店、电商卖家、跨境批发与 OEM/ODM 客户，提供文胸、内裤、无痕内衣、塑身衣及家居服选品支持。",
+    "intro": "Built for retailers, ecommerce sellers, cross-border buyers, and OEM/ODM partners looking for bras, panties, seamless lingerie, shapewear, and loungewear.",
     "featuredProductId": "style-201",
     "floatingProductIds": [
       "style-202",
@@ -43,29 +43,29 @@
   ],
   "report": {
     "reportNo": "240650440",
-    "sample": "文胸",
+    "sample": "Bra",
     "styleNo": "188#",
-    "summary": "检测依据包含 GB 18401-2010 B 类及 FZ/T 73012-2017 一等品。页面仅展示摘要，实际以原 PDF 为准。",
+    "summary": "Tested under GB 18401-2010 Class B and FZ/T 73012-2017 First Grade. This page shows a summary only — refer to the original PDF.",
     "items": [
       {
         "label": "pH",
         "value": "6.6",
-        "note": "合格"
+        "note": "Pass"
       },
       {
-        "label": "甲醛",
-        "value": "未检出",
+        "label": "Formaldehyde",
+        "value": "Not detected",
         "note": "≤ 75 mg/kg"
       },
       {
-        "label": "异味",
-        "value": "无",
-        "note": "合格"
+        "label": "Odor",
+        "value": "None",
+        "note": "Pass"
       },
       {
-        "label": "色牢度",
+        "label": "Color fastness",
         "value": "4-5",
-        "note": "合格"
+        "note": "Pass"
       }
     ]
   }

@@ -1,7 +1,159 @@
 {
-    "generatedAt":  "2026-07-19T03:02:24.6049240Z",
+    "generatedAt":  "2026-07-19T03:20:27.5389587Z",
     "newProducts":  [
+                        {
+                            "id":  "style-201",
+                            "group":  "new",
+                            "isNew":  true,
+                            "title":  "201",
+                            "subtitle":  "Full-Cup Series",
+                            "description":  "Colors: Leopard Black, Leopard Nude, Smooth Nude | Size: ABCDEF Cups: 36/80, 38/85, 40/90, 42/95 BCDEFG Cups: 44/100, 46/105, 48/110, 50/115, 52/120 | (Leopard) Lining: 100% Polyester Fabric: 93.6% Polyester 6.4% Spandex (Smooth) Fabric: 89.7% Nylon 10.3% Spandex Lining: 100% Polyester | Patent design.",
+                            "size":  "ABCDEF Cups: 36/80, 38/85, 40/90, 42/95 BCDEFG Cups: 44/100, 46/105, 48/110, 50/115, 52/120",
+                            "fabric":  "(Leopard) Lining: 100% Polyester Fabric: 93.6% Polyester 6.4% Spandex (Smooth) Fabric: 89.7% Nylon 10.3% Spandex Lining: 100% Polyester",
+                            "patent":  true,
+                            "colors":  [
+                                           {
+                                               "id":  "leopard-black",
+                                               "name":  "Leopard Black",
+                                               "image":  "productdata/products/standard/style-201/colors/leopard-black.jpg"
+                                           },
+                                           {
+                                               "id":  "leopard-nude",
+                                               "name":  "Leopard Nude",
+                                               "image":  "productdata/products/standard/style-201/colors/leopard-nude.jpg"
+                                           },
+                                           {
+                                               "id":  "smooth-nude",
+                                               "name":  "Smooth Nude",
+                                               "image":  "productdata/products/standard/style-201/colors/smooth-nude.jpg"
+                                           }
+                                       ],
+                            "tags":  [
+                                         "fullcup",
+                                         "bra",
+                                         "patent"
+                                     ],
+                            "accent":  "#4be683",
+                            "tilt":  "-2deg",
+                            "linkText":  "Inquire about this series",
+                            "sort":  10,
+                            "featured":  true,
+                            "cover":  "productdata/products/new/style-201/cover.jpg",
+                            "gallery":  [
 
+                                        ]
+                        },
+                        {
+                            "id":  "style-202",
+                            "group":  "new",
+                            "isNew":  true,
+                            "title":  "202",
+                            "subtitle":  "Full-Cup Series",
+                            "description":  "Colors: Nude, Black | Size: ABCDEF Cups: 34/75, 36/80, 38/85, 40/90 BCDEFG Cups: 42/95, 44/100, 46/105, 48/110, 50/115 | Fabric: 78.2% Polyester 16.7% Cotton 5.1% Spandex Lining: 100% Polyester | Patent design.",
+                            "size":  "ABCDEF Cups: 34/75, 36/80, 38/85, 40/90 BCDEFG Cups: 42/95, 44/100, 46/105, 48/110, 50/115",
+                            "fabric":  "Fabric: 78.2% Polyester 16.7% Cotton 5.1% Spandex Lining: 100% Polyester",
+                            "patent":  true,
+                            "colors":  [
+                                           {
+                                               "id":  "nude",
+                                               "name":  "Nude",
+                                               "image":  "productdata/products/standard/style-202/colors/nude.jpg"
+                                           },
+                                           {
+                                               "id":  "black",
+                                               "name":  "Black",
+                                               "image":  "productdata/products/standard/style-202/colors/black.jpg"
+                                           }
+                                       ],
+                            "tags":  [
+                                         "fullcup",
+                                         "bra",
+                                         "patent"
+                                     ],
+                            "accent":  "#6196ff",
+                            "tilt":  "-1deg",
+                            "linkText":  "Inquire about this series",
+                            "sort":  20,
+                            "featured":  true,
+                            "cover":  "productdata/products/new/style-202/cover.jpg",
+                            "gallery":  [
+
+                                        ]
+                        },
+                        {
+                            "id":  "style-203",
+                            "group":  "new",
+                            "isNew":  true,
+                            "title":  "203",
+                            "subtitle":  "Full-Cup Series",
+                            "description":  "Colors: Nude, Black | Size: ABCDEF Cups: 34/75, 36/80, 38/85, 40/90 BCDEFG Cups: 42/95, 44/100, 46/105, 48/110, 50/115 | Fabric: 78.3% Polyester 15.9% Cotton 5.8% Spandex Lining: 100% Polyester | Patent design.",
+                            "size":  "ABCDEF Cups: 34/75, 36/80, 38/85, 40/90 BCDEFG Cups: 42/95, 44/100, 46/105, 48/110, 50/115",
+                            "fabric":  "Fabric: 78.3% Polyester 15.9% Cotton 5.8% Spandex Lining: 100% Polyester",
+                            "patent":  true,
+                            "colors":  [
+                                           {
+                                               "id":  "nude",
+                                               "name":  "Nude",
+                                               "image":  "productdata/products/standard/style-203/colors/nude.jpg"
+                                           },
+                                           {
+                                               "id":  "black",
+                                               "name":  "Black",
+                                               "image":  "productdata/products/standard/style-203/colors/black.jpg"
+                                           }
+                                       ],
+                            "tags":  [
+                                         "fullcup",
+                                         "bra",
+                                         "patent"
+                                     ],
+                            "accent":  "#ffe36d",
+                            "tilt":  "0deg",
+                            "linkText":  "Inquire about this series",
+                            "sort":  30,
+                            "featured":  true,
+                            "cover":  "productdata/products/new/style-203/cover.jpg",
+                            "gallery":  [
+
+                                        ]
+                        },
+                        {
+                            "id":  "style-205",
+                            "group":  "new",
+                            "isNew":  true,
+                            "title":  "205",
+                            "subtitle":  "Full-Cup Series",
+                            "description":  "Colors: Nude, Black | Size: ABCDEF Cups: 36/80, 38/85, 40/90, 42/95 BCDEFG Cups: 44/100, 46/105, 48/110, 50/115, 52/120 | Cup fabric: 95.7% Polyester 4.3% Spandex Back panel: 82.4% Polyester 13.3% Cotton 4.3% Spandex Lining: 100% Polyester | Patent design.",
+                            "size":  "ABCDEF Cups: 36/80, 38/85, 40/90, 42/95 BCDEFG Cups: 44/100, 46/105, 48/110, 50/115, 52/120",
+                            "fabric":  "Cup fabric: 95.7% Polyester 4.3% Spandex Back panel: 82.4% Polyester 13.3% Cotton 4.3% Spandex Lining: 100% Polyester",
+                            "patent":  true,
+                            "colors":  [
+                                           {
+                                               "id":  "nude",
+                                               "name":  "Nude",
+                                               "image":  "productdata/products/standard/style-205/colors/nude.jpg"
+                                           },
+                                           {
+                                               "id":  "black",
+                                               "name":  "Black",
+                                               "image":  "productdata/products/standard/style-205/colors/black.jpg"
+                                           }
+                                       ],
+                            "tags":  [
+                                         "fullcup",
+                                         "bra",
+                                         "patent"
+                                     ],
+                            "accent":  "#ff8a66",
+                            "tilt":  "1deg",
+                            "linkText":  "Inquire about this series",
+                            "sort":  40,
+                            "featured":  false,
+                            "cover":  "productdata/products/new/style-205/cover.jpg",
+                            "gallery":  [
+
+                                        ]
+                        }
                     ],
     "allProducts":  [
                         {
@@ -38,10 +190,89 @@
                                      ],
                             "accent":  "#4be683",
                             "tilt":  "-2deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  10,
                             "featured":  true,
                             "cover":  "productdata/products/standard/style-201/cover.jpg",
+                            "gallery":  [
+
+                                        ]
+                        },
+                        {
+                            "id":  "style-201",
+                            "group":  "new",
+                            "isNew":  true,
+                            "title":  "201",
+                            "subtitle":  "Full-Cup Series",
+                            "description":  "Colors: Leopard Black, Leopard Nude, Smooth Nude | Size: ABCDEF Cups: 36/80, 38/85, 40/90, 42/95 BCDEFG Cups: 44/100, 46/105, 48/110, 50/115, 52/120 | (Leopard) Lining: 100% Polyester Fabric: 93.6% Polyester 6.4% Spandex (Smooth) Fabric: 89.7% Nylon 10.3% Spandex Lining: 100% Polyester | Patent design.",
+                            "size":  "ABCDEF Cups: 36/80, 38/85, 40/90, 42/95 BCDEFG Cups: 44/100, 46/105, 48/110, 50/115, 52/120",
+                            "fabric":  "(Leopard) Lining: 100% Polyester Fabric: 93.6% Polyester 6.4% Spandex (Smooth) Fabric: 89.7% Nylon 10.3% Spandex Lining: 100% Polyester",
+                            "patent":  true,
+                            "colors":  [
+                                           {
+                                               "id":  "leopard-black",
+                                               "name":  "Leopard Black",
+                                               "image":  "productdata/products/standard/style-201/colors/leopard-black.jpg"
+                                           },
+                                           {
+                                               "id":  "leopard-nude",
+                                               "name":  "Leopard Nude",
+                                               "image":  "productdata/products/standard/style-201/colors/leopard-nude.jpg"
+                                           },
+                                           {
+                                               "id":  "smooth-nude",
+                                               "name":  "Smooth Nude",
+                                               "image":  "productdata/products/standard/style-201/colors/smooth-nude.jpg"
+                                           }
+                                       ],
+                            "tags":  [
+                                         "fullcup",
+                                         "bra",
+                                         "patent"
+                                     ],
+                            "accent":  "#4be683",
+                            "tilt":  "-2deg",
+                            "linkText":  "Inquire about this series",
+                            "sort":  10,
+                            "featured":  true,
+                            "cover":  "productdata/products/new/style-201/cover.jpg",
+                            "gallery":  [
+
+                                        ]
+                        },
+                        {
+                            "id":  "style-202",
+                            "group":  "new",
+                            "isNew":  true,
+                            "title":  "202",
+                            "subtitle":  "Full-Cup Series",
+                            "description":  "Colors: Nude, Black | Size: ABCDEF Cups: 34/75, 36/80, 38/85, 40/90 BCDEFG Cups: 42/95, 44/100, 46/105, 48/110, 50/115 | Fabric: 78.2% Polyester 16.7% Cotton 5.1% Spandex Lining: 100% Polyester | Patent design.",
+                            "size":  "ABCDEF Cups: 34/75, 36/80, 38/85, 40/90 BCDEFG Cups: 42/95, 44/100, 46/105, 48/110, 50/115",
+                            "fabric":  "Fabric: 78.2% Polyester 16.7% Cotton 5.1% Spandex Lining: 100% Polyester",
+                            "patent":  true,
+                            "colors":  [
+                                           {
+                                               "id":  "nude",
+                                               "name":  "Nude",
+                                               "image":  "productdata/products/standard/style-202/colors/nude.jpg"
+                                           },
+                                           {
+                                               "id":  "black",
+                                               "name":  "Black",
+                                               "image":  "productdata/products/standard/style-202/colors/black.jpg"
+                                           }
+                                       ],
+                            "tags":  [
+                                         "fullcup",
+                                         "bra",
+                                         "patent"
+                                     ],
+                            "accent":  "#6196ff",
+                            "tilt":  "-1deg",
+                            "linkText":  "Inquire about this series",
+                            "sort":  20,
+                            "featured":  true,
+                            "cover":  "productdata/products/new/style-202/cover.jpg",
                             "gallery":  [
 
                                         ]
@@ -75,10 +306,47 @@
                                      ],
                             "accent":  "#6196ff",
                             "tilt":  "-1deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  20,
                             "featured":  true,
                             "cover":  "productdata/products/standard/style-202/cover.jpg",
+                            "gallery":  [
+
+                                        ]
+                        },
+                        {
+                            "id":  "style-203",
+                            "group":  "new",
+                            "isNew":  true,
+                            "title":  "203",
+                            "subtitle":  "Full-Cup Series",
+                            "description":  "Colors: Nude, Black | Size: ABCDEF Cups: 34/75, 36/80, 38/85, 40/90 BCDEFG Cups: 42/95, 44/100, 46/105, 48/110, 50/115 | Fabric: 78.3% Polyester 15.9% Cotton 5.8% Spandex Lining: 100% Polyester | Patent design.",
+                            "size":  "ABCDEF Cups: 34/75, 36/80, 38/85, 40/90 BCDEFG Cups: 42/95, 44/100, 46/105, 48/110, 50/115",
+                            "fabric":  "Fabric: 78.3% Polyester 15.9% Cotton 5.8% Spandex Lining: 100% Polyester",
+                            "patent":  true,
+                            "colors":  [
+                                           {
+                                               "id":  "nude",
+                                               "name":  "Nude",
+                                               "image":  "productdata/products/standard/style-203/colors/nude.jpg"
+                                           },
+                                           {
+                                               "id":  "black",
+                                               "name":  "Black",
+                                               "image":  "productdata/products/standard/style-203/colors/black.jpg"
+                                           }
+                                       ],
+                            "tags":  [
+                                         "fullcup",
+                                         "bra",
+                                         "patent"
+                                     ],
+                            "accent":  "#ffe36d",
+                            "tilt":  "0deg",
+                            "linkText":  "Inquire about this series",
+                            "sort":  30,
+                            "featured":  true,
+                            "cover":  "productdata/products/new/style-203/cover.jpg",
                             "gallery":  [
 
                                         ]
@@ -112,7 +380,7 @@
                                      ],
                             "accent":  "#ffe36d",
                             "tilt":  "0deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  30,
                             "featured":  true,
                             "cover":  "productdata/products/standard/style-203/cover.jpg",
@@ -149,10 +417,47 @@
                                      ],
                             "accent":  "#ff8a66",
                             "tilt":  "1deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  40,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-205/cover.jpg",
+                            "gallery":  [
+
+                                        ]
+                        },
+                        {
+                            "id":  "style-205",
+                            "group":  "new",
+                            "isNew":  true,
+                            "title":  "205",
+                            "subtitle":  "Full-Cup Series",
+                            "description":  "Colors: Nude, Black | Size: ABCDEF Cups: 36/80, 38/85, 40/90, 42/95 BCDEFG Cups: 44/100, 46/105, 48/110, 50/115, 52/120 | Cup fabric: 95.7% Polyester 4.3% Spandex Back panel: 82.4% Polyester 13.3% Cotton 4.3% Spandex Lining: 100% Polyester | Patent design.",
+                            "size":  "ABCDEF Cups: 36/80, 38/85, 40/90, 42/95 BCDEFG Cups: 44/100, 46/105, 48/110, 50/115, 52/120",
+                            "fabric":  "Cup fabric: 95.7% Polyester 4.3% Spandex Back panel: 82.4% Polyester 13.3% Cotton 4.3% Spandex Lining: 100% Polyester",
+                            "patent":  true,
+                            "colors":  [
+                                           {
+                                               "id":  "nude",
+                                               "name":  "Nude",
+                                               "image":  "productdata/products/standard/style-205/colors/nude.jpg"
+                                           },
+                                           {
+                                               "id":  "black",
+                                               "name":  "Black",
+                                               "image":  "productdata/products/standard/style-205/colors/black.jpg"
+                                           }
+                                       ],
+                            "tags":  [
+                                         "fullcup",
+                                         "bra",
+                                         "patent"
+                                     ],
+                            "accent":  "#ff8a66",
+                            "tilt":  "1deg",
+                            "linkText":  "Inquire about this series",
+                            "sort":  40,
+                            "featured":  false,
+                            "cover":  "productdata/products/new/style-205/cover.jpg",
                             "gallery":  [
 
                                         ]
@@ -191,7 +496,7 @@
                                      ],
                             "accent":  "#84e6ef",
                             "tilt":  "2deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  50,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-228/cover.jpg",
@@ -233,7 +538,7 @@
                                      ],
                             "accent":  "#c6a7ff",
                             "tilt":  "-2deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  60,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-325/cover.jpg",
@@ -270,7 +575,7 @@
                                      ],
                             "accent":  "#4be683",
                             "tilt":  "-1deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  70,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-327/cover.jpg",
@@ -307,7 +612,7 @@
                                      ],
                             "accent":  "#6196ff",
                             "tilt":  "0deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  80,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-329/cover.jpg",
@@ -344,7 +649,7 @@
                                      ],
                             "accent":  "#ffe36d",
                             "tilt":  "1deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  90,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-901/cover.jpg",
@@ -381,7 +686,7 @@
                                      ],
                             "accent":  "#ff8a66",
                             "tilt":  "2deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  100,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-209/cover.jpg",
@@ -418,7 +723,7 @@
                                      ],
                             "accent":  "#84e6ef",
                             "tilt":  "-2deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  110,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-206/cover.jpg",
@@ -454,7 +759,7 @@
                                      ],
                             "accent":  "#c6a7ff",
                             "tilt":  "-1deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  120,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-658/cover.jpg",
@@ -491,7 +796,7 @@
                                      ],
                             "accent":  "#4be683",
                             "tilt":  "0deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  130,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-801/cover.jpg",
@@ -528,7 +833,7 @@
                                      ],
                             "accent":  "#6196ff",
                             "tilt":  "1deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  140,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-210/cover.jpg",
@@ -565,7 +870,7 @@
                                      ],
                             "accent":  "#ffe36d",
                             "tilt":  "2deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  150,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-803/cover.jpg",
@@ -612,7 +917,7 @@
                                      ],
                             "accent":  "#ff8a66",
                             "tilt":  "-2deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  160,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-222-full-cup-version/cover.jpg",
@@ -649,7 +954,7 @@
                                      ],
                             "accent":  "#84e6ef",
                             "tilt":  "-1deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  170,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-1711/cover.jpg",
@@ -686,7 +991,7 @@
                                      ],
                             "accent":  "#c6a7ff",
                             "tilt":  "0deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  180,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-1722/cover.jpg",
@@ -723,7 +1028,7 @@
                                      ],
                             "accent":  "#4be683",
                             "tilt":  "1deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  190,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-2688/cover.jpg",
@@ -760,7 +1065,7 @@
                                      ],
                             "accent":  "#ffe36d",
                             "tilt":  "-2deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  210,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-212/cover.jpg",
@@ -801,7 +1106,7 @@
                                      ],
                             "accent":  "#ff8a66",
                             "tilt":  "-1deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  220,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-809/cover.jpg",
@@ -847,7 +1152,7 @@
                                      ],
                             "accent":  "#84e6ef",
                             "tilt":  "0deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  230,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-807/cover.jpg",
@@ -878,7 +1183,7 @@
                                      ],
                             "accent":  "#c6a7ff",
                             "tilt":  "1deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  240,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-3611/cover.jpg",
@@ -909,7 +1214,7 @@
                                      ],
                             "accent":  "#4be683",
                             "tilt":  "2deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  250,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-3622/cover.jpg",
@@ -940,7 +1245,7 @@
                                      ],
                             "accent":  "#6196ff",
                             "tilt":  "-2deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  260,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-3633/cover.jpg",
@@ -976,7 +1281,7 @@
                                      ],
                             "accent":  "#ffe36d",
                             "tilt":  "-1deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  270,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-3655/cover.jpg",
@@ -1012,7 +1317,7 @@
                                      ],
                             "accent":  "#ff8a66",
                             "tilt":  "0deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  280,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-823/cover.jpg",
@@ -1048,7 +1353,7 @@
                                      ],
                             "accent":  "#84e6ef",
                             "tilt":  "1deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  290,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-826/cover.jpg",
@@ -1084,7 +1389,7 @@
                                      ],
                             "accent":  "#c6a7ff",
                             "tilt":  "2deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  300,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-827/cover.jpg",
@@ -1120,7 +1425,7 @@
                                      ],
                             "accent":  "#4be683",
                             "tilt":  "-2deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  310,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-828/cover.jpg",
@@ -1166,7 +1471,7 @@
                                      ],
                             "accent":  "#6196ff",
                             "tilt":  "-1deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  320,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-829/cover.jpg",
@@ -1202,7 +1507,7 @@
                                      ],
                             "accent":  "#ffe36d",
                             "tilt":  "0deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  330,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-830/cover.jpg",
@@ -1243,7 +1548,7 @@
                                      ],
                             "accent":  "#ff8a66",
                             "tilt":  "1deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  340,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-213/cover.jpg",
@@ -1284,7 +1589,7 @@
                                      ],
                             "accent":  "#84e6ef",
                             "tilt":  "2deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  350,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-833/cover.jpg",
@@ -1330,7 +1635,7 @@
                                      ],
                             "accent":  "#c6a7ff",
                             "tilt":  "-2deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  360,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-837/cover.jpg",
@@ -1381,7 +1686,7 @@
                                      ],
                             "accent":  "#4be683",
                             "tilt":  "-1deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  370,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-222-plus-size-version/cover.jpg",
@@ -1427,7 +1732,7 @@
                                      ],
                             "accent":  "#6196ff",
                             "tilt":  "0deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  380,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-835/cover.jpg",
@@ -1473,7 +1778,7 @@
                                      ],
                             "accent":  "#ffe36d",
                             "tilt":  "1deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  390,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-836/cover.jpg",
@@ -1519,7 +1824,7 @@
                                      ],
                             "accent":  "#ff8a66",
                             "tilt":  "2deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  400,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-839/cover.jpg",
@@ -1575,7 +1880,7 @@
                                      ],
                             "accent":  "#84e6ef",
                             "tilt":  "-2deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  410,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-268-plus-size-version/cover.jpg",
@@ -1621,7 +1926,7 @@
                                      ],
                             "accent":  "#c6a7ff",
                             "tilt":  "-1deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  420,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-8226/cover.jpg",
@@ -1667,7 +1972,7 @@
                                      ],
                             "accent":  "#4be683",
                             "tilt":  "0deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  430,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-8228/cover.jpg",
@@ -1723,7 +2028,7 @@
                                      ],
                             "accent":  "#6196ff",
                             "tilt":  "1deg",
-                            "linkText":  "询盘此系列",
+                            "linkText":  "Inquire about this series",
                             "sort":  440,
                             "featured":  false,
                             "cover":  "productdata/products/standard/style-861/cover.jpg",
